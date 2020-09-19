@@ -223,16 +223,16 @@
 				// Image.
 				// This sets the background of the "image" <span> to the image pointed to by its child
 				// <img> (which is then hidden). Gives us way more flexibility.
-					window.navigate("../generic.html");
+					
 					// Set background.
-						//$image.css('background-image', 'url(' + $image_img.attr('src') + ')');
+						$image.css('background-image', 'url(' + $image_img.attr('src') + ')');
 
 					// Set background position.
-						//if (x = $image_img.data('position'))
+						if (x = $image_img.data('position'))
 							$image.css('background-position', x);
 
 					// Hide original img.
-						//$image_img.hide();
+						$image_img.hide();
 
 			});
 
